@@ -1,0 +1,74 @@
+.order-section {
+    padding: 20px 0px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+.order-section h3{
+    text-transform: capitalize;
+}
+.table-topping{
+    width: 100%;
+}
+.topping-list td{
+    display: block;
+}
+.wrapper-adding-sandwich {
+    padding: 20px;
+    background-color: #ececec;
+    border-radius: 20px;
+}
+.choosing-topping {
+    padding-left: 0px;
+    list-style: none;
+}
+.choosing-topping li {
+    font-weight: 600;
+    font-size: 1.4em;
+    line-height: 1.1;
+    margin-bottom: 5px;
+}
+.add-button button{
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+.add-button button:hover{
+    cursor: pointer;
+}
+.save-sandwich{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+.my-class {
+    vertical-align: middle;
+}
+.my-class:hover{
+    cursor: pointer;
+}
+.my-class + .table-topping{
+    display: none;
+    padding: 1em 0em;
+}
+.my-class.active{
+    display: none;
+}
+.my-class.active + .table-topping{
+    display: table;
+}
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login-container {
+    max-width: 50%;
+}
+.error-message {
+    color: red;
+    text-align: center;
+}
